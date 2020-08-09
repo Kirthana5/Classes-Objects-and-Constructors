@@ -39,12 +39,6 @@ public class bankaccount {
         System.out.println("\n============");
         System.out.println("\nAFTER TRANSACTION CUSTOMER DETAILS:");
         
-        //1st customer
-        System.out.println("\n============");
-        System.out.println("\nCUSTOMER 1:");
-        System.out.println(c1.toString());
-        
-        //2nd customer
         System.out.println("\n============");
         System.out.println("\nCUSTOMER 2:");
         System.out.println(c2.toString());
@@ -101,7 +95,7 @@ class Account
         return balance;
             
     }
-    @Override//
+    @Override
     public String toString()
     {
         return("\nID: "+id+"\nName: "+name+"\nBalance: Rs."+balance);
