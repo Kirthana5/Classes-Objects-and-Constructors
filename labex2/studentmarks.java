@@ -41,14 +41,14 @@ public class studentmarks {
        
        
        //4th object
-       student obj4=new student(1);
+       student obj4=new student(4);
        obj4.getdata();
        obj4.calc();
        obj4.display(4);
        
        
        //5th object
-       student obj5=new student(1);
+       student obj5=new student(5);
        obj5.getdata();
        obj5.calc();
        obj5.display(5);
